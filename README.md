@@ -68,7 +68,7 @@ Do you have any questions related to this challenge?? Feel free to contact us vi
 
 ## :gift: Submission
 
-Please follow the instructions on the [Submission guide](CONTRIBUTING.md).
+Please follow the instructions on the [Submission guide](CONTRIBUTING.md). Make sure submit before 31 January 2023 23.59 WIB ✨
 
 ![good_luck](https://media.giphy.com/media/3gM9hmQeWBLVXXrxvJ/giphy-downsized-large.gif)
 
