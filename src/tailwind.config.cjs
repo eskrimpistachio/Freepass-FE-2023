@@ -2,10 +2,19 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/***/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors : {
+        'dark' : '#0A0A0A',
+        'secondary' : '#FB2576'
+      },
+      fontFamily : {
+        'mont' : ['Montserrat'],
+        'logo' : ['Unbounded']
+      }
+    },
   },
   plugins: [],
 }

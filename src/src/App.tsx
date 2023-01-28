@@ -1,10 +1,12 @@
-import { useState } from 'react'
+import { useState } from "react";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
-  
   return (
-    <div className='text-4xl font-bold'>TES HALO HALO</div>
-  )
+    <div >
+      <Navbar />
+    </div>
+  );
 }
 
-export default App
+export default App;
