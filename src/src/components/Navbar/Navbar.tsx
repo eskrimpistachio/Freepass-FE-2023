@@ -32,7 +32,7 @@ const Navbar = () => {
           onClick={() => {
             setOpen(!open);
           }}
-          className="text-4xl cursor-pointer lg:hidden text-secondary"
+          className="text-3xl cursor-pointer lg:hidden text-secondary"
         >
           <IonIcon name={open ? "close" : "menu"}></IonIcon>
         </div>
