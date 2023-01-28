@@ -1,6 +1,7 @@
 import * as React from "react";
 import { useState } from "react";
 import { IonIcon } from "react-ion-icon";
+import { Link } from "react-router-dom";
 import NavbarMobile from "./NavbarMobile";
 
 const Navbar = () => {
@@ -10,17 +11,17 @@ const Navbar = () => {
     <>
       <div className="mx-16 py-8 font-mont flex flex-row justify-between text-white">
         <div className="logo font-logo text-2xl 2xl:text-4xl">
-          <h1>
-            alpha <span className="text-secondary">rent</span>
+          <h1 className="font-logo">
+            alpha <span className="text-secondary font-logo">rent</span>
           </h1>
         </div>
         <div>
           <ul
             className={`hidden lg:flex lg:flex-row text-sm 2xl:text-base justify-evenly gap-16 lg:gap-32 z-[-1] font-semibold`}
           >
-            <li>Home</li>
-            <li>Service</li>
-            <li>Bookings</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/">Service</Link></li>
+            <li><Link to="/bookings">Bookings</Link></li>
           </ul>
         </div>
         {/* Account and Logout Info */}
@@ -39,7 +40,7 @@ const Navbar = () => {
       </div>
 
       {/* Navbar in Mobile */}
-      <NavbarMobile open={open}/>
+      <NavbarMobile open={open} />
     </>
   );
 };

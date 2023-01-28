@@ -15,7 +15,9 @@ module.exports = {
         'logo' : ['Unbounded']
       },
       backgroundImage : {
-        'landing-bg' : "url('./assets/landingpage-bg.png')"
+        'landing-bg' : "url('./assets/landingpage-bg.png')",
+        'bookings-bg' : "url('./assets/bookings-bg.png')"
+
       }
     },
   },
