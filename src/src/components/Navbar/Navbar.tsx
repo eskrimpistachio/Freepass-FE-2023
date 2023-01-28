@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="mx-16 my-8 font-mont flex flex-row justify-between">
+      <div className="mx-16 py-8 font-mont flex flex-row justify-between text-white">
         <div className="logo font-logo text-2xl 2xl:text-4xl">
           <h1>
             alpha <span className="text-secondary">rent</span>

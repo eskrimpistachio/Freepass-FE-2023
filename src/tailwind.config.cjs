@@ -13,6 +13,9 @@ module.exports = {
       fontFamily : {
         'mont' : ['Montserrat'],
         'logo' : ['Unbounded']
+      },
+      backgroundImage : {
+        'landing-bg' : "url('./assets/landingpage-bg.png')"
       }
     },
   },
