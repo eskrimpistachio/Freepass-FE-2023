@@ -1,6 +1,6 @@
 import Button from "../Button/Button";
 
-const Card = ({ img, title, body }: any) => {
+const Card = ({ img, title, body, key }: any) => {
   return (
     <div className="flex flex-col text-white w-[300px] h-[450px] text-left rounded-3xl bg-black px-8">
       <img className="h-[120px] mx-auto my-8" src={img} alt="missing img" />

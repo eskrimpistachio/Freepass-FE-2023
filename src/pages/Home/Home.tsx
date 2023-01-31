@@ -45,7 +45,7 @@ const Home = () => {
               </div>
             </div>
             <div className="lg:mr-36">
-              <Button direct="/">Rent Cars</Button>
+              <Button direct="/bookings">Rent Cars</Button>
             </div>
             {/* Scroll down animate */}
             <div className="hidden lg:flex h-1/2 animate-bounce lg:mt-2">

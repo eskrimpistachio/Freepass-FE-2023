@@ -9,21 +9,25 @@ import logistic from "../../assets/logistic.png";
 const WhyChoose = () => {
   const services = [
     {
+      id: "1",
       img: rentalimg,
       title: "Rental Cars",
       body: "We are providing rental cars with best quality for our customers",
     },
     {
+      id: "2",
       img: trolley,
       title: "E-Commerce",
       body: "We have e-commerce platform to buy and sell used cars",
     },
     {
+      id: "3",
       img: carwash,
       title: "Cars Wash",
       body: "We have an outlet providing cars wash for our beloved customers",
     },
     {
+      id: "4",
       img: logistic,
       title: "Logistic Delivery",
       body: "We providing logistic delivery to all over the world",
@@ -36,7 +40,12 @@ const WhyChoose = () => {
         <Title>Our Services</Title>
         <div className="items-center my-16 flex md:flex-row xl:flex-nowrap flex-col flex-wrap justify-between gap-12 md:gap-4 xl:gap-8">
           {services.map((service) => (
-            <Card img={service.img} title={service.title} body={service.body} />
+            <Card
+              key={service.id}
+              img={service.img}
+              title={service.title}
+              body={service.body}
+            />
           ))}
         </div>
       </div>

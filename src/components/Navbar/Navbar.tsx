@@ -19,15 +19,16 @@ const Navbar = () => {
           <ul
             className={`hidden lg:flex lg:flex-row text-sm 2xl:text-base justify-evenly gap-16 lg:gap-32 z-[-1] font-semibold`}
           >
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/">Service</Link></li>
-            <li><Link to="/bookings">Bookings</Link></li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/bookings">Bookings</Link>
+            </li>
+            <li>
+              <Link to="/rentals">Your Rentals</Link>
+            </li>
           </ul>
-        </div>
-        {/* Account and Logout Info */}
-        <div className="hidden lg:flex my-1 font-semibold text-sm 2xl:text-base">
-          <img />
-          <h6>pistachiocookies</h6>
         </div>
         <div
           onClick={() => {

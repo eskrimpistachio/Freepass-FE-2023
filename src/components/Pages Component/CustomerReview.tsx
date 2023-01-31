@@ -29,7 +29,11 @@ const CustomerReview = () => {
         </div>
         <div className="flex md:flex-row flex-col flex-wrap lg:flex-nowrap justify-evenly gap-8">
           {reviews.map((review) => (
-            <ReviewCard reviewText={review.review} customer={review.nama} location={review.lokasi} />
+            <ReviewCard
+              reviewText={review.review}
+              customer={review.nama}
+              location={review.lokasi}
+            />
           ))}
         </div>
       </div>
